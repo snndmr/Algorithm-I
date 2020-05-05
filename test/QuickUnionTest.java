@@ -1,9 +1,11 @@
-package codes;
+package test;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import codes.QuickUnion;
 
 class QuickUnionTest {
 

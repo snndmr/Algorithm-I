@@ -1,14 +1,16 @@
-package codes;
+package test;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+import codes.QuickFind;
+
 class QuickFindTest {
 
 	@Test
-	void QuickFind() {
+	public void QuickFind() {
 		QuickFind quickFind = new QuickFind(10);
 
 		assertArrayEquals(new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }, quickFind.getIDs());
